@@ -1,0 +1,18 @@
+data = {
+    "song": ["Shape of You", "Blinding Lights", "Someone Like You", "Believer", "Senorita",
+             "Levitating", "Uptown Funk", "Happier", "Bad Guy", "Closer", "Stay", "Save Your Tears",
+             "Radioactive", "Cheap Thrills", "Sunflower", "Perfect", "Dynamite", "Heat Waves",
+             "Don't Start Now", "Memories"],
+    "artist": ["Ed Sheeran", "The Weeknd", "Adele", "Imagine Dragons", "Shawn Mendes",
+               "Dua Lipa", "Bruno Mars", "Marshmello", "Billie Eilish", "The Chainsmokers",
+               "Justin Bieber", "The Weeknd", "Imagine Dragons", "Sia", "Post Malone",
+               "Ed Sheeran", "BTS", "Glass Animals", "Dua Lipa", "Maroon 5"],
+    "genre": ["Pop", "R&B", "Pop", "Rock", "Pop", "Pop", "Funk", "Electronic", "Alternative", "Electronic",
+              "Pop", "R&B", "Rock", "Pop", "Hip-Hop", "Pop", "K-Pop", "Alternative", "Pop", "Pop"],
+    "tempo": [95, 110, 70, 125, 98, 103, 115, 90, 135, 95, 130, 120, 140, 90, 80, 76, 115, 160, 124, 90],
+    "danceability": [8, 9, 6, 7, 9, 9, 9, 7, 10, 8, 9, 8, 6, 8, 9, 6, 9, 8, 9, 7],
+    "energy": [7, 8, 5, 9, 8, 8, 9, 6, 7, 7, 8, 7, 9, 7, 6, 5, 8, 7, 9, 6]
+}
+
+df = pd.DataFrame(data)
+print(df.head())  # View first few rows
